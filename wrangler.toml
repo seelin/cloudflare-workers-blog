@@ -1,10 +1,10 @@
 name = "cfblog"
 workers_dev = true
-type = "webpack"
-webpack_config = "webpack.config.js"
+#type = "webpack"
+#webpack_config = "webpack.config.js"
 kv_namespaces = [{ binding = "CFBLOG", id = "6a11a7a5786949ddabdc4851ce11e0ac", preview_id = "6a11a7a5786949ddabdc4851ce11e0ac" }]
 compatibility_date = "2025-10-23"
-main = "./dist/index.js"
+main = "index.js"
 compatibility_flags = ["nodejs_compat"]
 #route = ""
 #zone_id = "cc858e8edce4097ad4a7357442722897f"
