@@ -1,9 +1,9 @@
 name = "cfblog"
 type = "webpack"
-account_id = "e9234b8d766891f53d350fe498edda5ff"
+#account_id = "e9234b8d766891f53d350fe498edda5ff"
 workers_dev = true
 route = ""
-zone_id = "cc858e8edce4097ad4a7357442722897f"
+#zone_id = "cc858e8edce4097ad4a7357442722897f"
 webpack_config = "webpack.config.js"
 kv_namespaces = [
   { binding = "CFBLOG", id = "6a11a7a5786949ddabdc4851ce11e0ac", preview_id = "6a11a7a5786949ddabdc4851ce11e0ac" }
