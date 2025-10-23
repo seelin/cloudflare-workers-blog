@@ -1,5 +1,5 @@
 name = "cfblog"
-type = "webpack"
+#type = "webpack"
 #account_id = "e9234b8d766891f53d350fe498edda5ff"
 workers_dev = true
 #route = ""
