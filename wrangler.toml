@@ -1,16 +1,10 @@
 name = "cfblog"
-main = "index.js"
-compatibility_date = "2024-01-01"
-compatibility_flags = ["nodejs_compat"]
-
-[vars]
-#SK_ESTOKEN="VZF13T4M4NCUJF1M46BG4Q66EHY3SZFC7Y"
-#SK_EXCKEY='6c15c49ccf84b892391a9e8d'
-#SK_CMCKEY="d15bcfdf-9b59-4f4c-8296-dffd8f77d89d"
-#SC_PORT=82
-
-# KV 命名空间配置
-[[kv_namespaces]]
-binding = "cfblog_kv"
-preview_id = "90d93f6ce1df4c94940d7d401fadc8cd"
-id = "90d93f6ce1df4c94940d7d401fadc8cd"
+type = "webpack"
+account_id = "e9234b8d766891f53d350fe498edda5f"
+workers_dev = true
+route = ""
+zone_id = "cc858e8edce4097ad4a7357442722897"
+webpack_config = "webpack.config.js"
+kv_namespaces = [
+  { binding = "CFBLOG", id = "6a11a7a5786949ddabdc4851ce11e0ac", preview_id = "6a11a7a5786949ddabdc4851ce11e0ac" }
+]
